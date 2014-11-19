@@ -23,7 +23,7 @@ $http.delete
 Create an unordered list out of the users in the following code
 
 `<ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]">
-  <li ng-repeat="user in users"></li>
+  <li ng-repeat="user in users">{{ user.name }}</li>
 </ul>`
 
 
@@ -33,11 +33,17 @@ Based on questions #1 and #3, where are numbers and users getting created and st
 
 They are initialized in the code and are stored in angular? Not 100% sure.
 
+Correct answer:
+Everything angular is in the browser. This specifically is stored in the $scope.
+
 ### Question 5
 
 Write the correct version of the code below
 
 `angular.module("Demo").controller($http, function('MainCtrl', []) {});`
+
+Correct answer:
+`angular.module("Demo").controller('MainCtrl,' function($http, $scope) {});`
 
 ### Question 6
 
@@ -45,7 +51,7 @@ True of False - the following is an example of a filter?
 
 `<ng-view></ng-view>`
 
-False I think.
+False I think. It is a directive.
 
 ### Question 7
 
@@ -60,7 +66,7 @@ $routeProvider
     templateUrl: 'templates/about.html'
   });
   .otherwise({
-    templateUrl: '404.html'
+    templateUrl: 'templates/404.html'
   });
 ```
 
@@ -98,3 +104,5 @@ this way:
   }
 }
 ```
+
+Correct answer - depends on your API.
