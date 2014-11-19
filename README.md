@@ -25,11 +25,17 @@ Create an unordered list out of the users in the following code
   <li>{{user}}</li>
 </ul>
 
+Correct Answer should be:
+<ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]" ng-repeat="user in users">
+  <li>{{user.name}}</li>
+</ul>
+
+minus 1 point right here!!!
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
 
-I do not know for sure, but they are stored "behind the scene" when line 8 and 22 get executed.
+I do not know for sure, but they are stored "behind the scene" when line 8 and 22 get executed. Correct Answert: It will be stored in the scope, in the browser. minus 0.5 points here!!!
 
 ### Question 5
 
@@ -45,6 +51,8 @@ True of False - the following is an example of a filter?
 
 `<ng-view></ng-view>`
 false, i think it is a template
+
+Correct Answer: fase is correct, but it is a directive filter is {{ 'name' | capitalize}}, minus 0.5 points here!!!
 
 ### Question 7
 
@@ -84,6 +92,8 @@ Give two examples of angular directives used for handling events
 
 $scope.$watch('favColor', function(newValue, oldValue) {});
 $scope.$watchgroup(['favColor' 'favNumber], function(newValue, oldValue, scope) {});
+
+Correct Answer: ng-click, ng-submit, or similar minus 1 point here!
 
 ### Question 10
 
