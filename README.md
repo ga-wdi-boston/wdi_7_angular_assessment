@@ -19,16 +19,21 @@ $http.post
 
 Create an unordered list out of the users in the following code
 
-`<ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]">
-  <li>{{users[0].name}}</li>
-  <li>{{users[1].name}}</li>
+    <!-- `<ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]">
+      <li>{{users[0].name}}</li>
+      <li>{{users[1].name}}</li>
+    </ul>`
+    ` -->
+`<ul  ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]" >
+  <li ng-repeat="user in users" >{{user.name}}</li>
 </ul>`
 `
 
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
-  Inside the angular directives.
+  <!-- Inside the angular directives. -->
+  Into the $scope.
 
 ### Question 5
 
@@ -63,13 +68,15 @@ $routeProvider
   }).otherwise({
     redirectTo:'templates/404.html'
 })
-```
+
+
 
 ### Question 8
 
 Change the following code so that it uses one time binding
 
 `<p>{{ user.first_name }}</p>`
+`<p>{{ ::user.first_name }}</p>`
 
 ### Question 9
 
