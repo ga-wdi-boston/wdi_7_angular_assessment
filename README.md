@@ -13,6 +13,10 @@ What are the four methods of the $http service that we have used?
 
 ### Question 3
 
-Create an unordered list out of the following names
+Create an unordered list out of the users in the following code
 
 `<ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]"></ul>`
+
+### Question 4
+
+Based on questions #1 and #3, where are numbers and users getting created and stored?
