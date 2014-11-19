@@ -46,3 +46,13 @@ $routeProvider
     templateUrl: 'templates/about.html'
   });
 ```
+
+### Question 8
+
+Change the following code so that it uses one time binding
+
+`<p>{{ user.first_name }}</p>`
+
+### Question 9
+
+### Question 10
