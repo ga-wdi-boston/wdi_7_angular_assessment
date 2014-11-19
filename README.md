@@ -55,4 +55,6 @@ Change the following code so that it uses one time binding
 
 ### Question 9
 
+Give two examples of angular directives used for handling events
+
 ### Question 10
