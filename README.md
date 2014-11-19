@@ -5,7 +5,7 @@ wdi_7_angular_assessment
 
 Complete the following code so that the sum of num1 and num2 is displayed
 
-`<p ng-init="numbers = {num1: 5, num2: 10}">{{numbers.num1 + numbers.num2}} is the same as 10, and both answers do the job Dan Johnson</p>`
+`<p ng-init="numbers = {num1: 5, num2: 10}">{{numbers.num1 + numbers.num2}}</p>`
 
 ### Question 2
 
