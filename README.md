@@ -37,7 +37,7 @@ True of False - the following is an example of a filter
 
 Add a route that will catch any routes not matched in the following code
 
-`
+```
 $routeProvider
   .when('/', {
     templateUrl: 'templates/home.html'
@@ -45,4 +45,4 @@ $routeProvider
   .when('/about', {
     templateUrl: 'templates/about.html'
   });
-`
+```
