@@ -11,10 +11,10 @@ Complete the following code so that the sum of num1 and num2 is displayed
 
 What are the four methods of the $http service that we have used?
 
-> `$http.get();`
-> `$http.post();`
-> `$http.put();`
-> `$http.delete();`
+> `$http.get();`,
+> `$http.post();`,
+> `$http.put();`,
+> `$http.delete();`.
 
 ### Question 3
 
@@ -71,11 +71,14 @@ Change the following code so that it uses one time binding
 
 > `<p>{{ ::user.first_name }}</p>`
 
+> Meaning, it will render the value of `user.first_name`
+> rather than the `user.first_name` object itself.
+
 ### Question 9
 
 Give two examples of angular directives used for handling events
 
-> `ng-click` handles what happens when an element is clicked.
+> `ng-click` handles what happens when an element is clicked, and
 > `ng-submit` handles what happens when a form is submitted.
 
 ### Question 10
@@ -102,4 +105,4 @@ Which of the following is the correct way to send data to Rails to update a user
 > for a RESTful POST action.
 > For example, a UsersController
 > would expect a `user` parameter,
-> as in the second example.
+> so only the second example would be valid.
