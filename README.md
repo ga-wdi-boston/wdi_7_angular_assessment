@@ -3,6 +3,6 @@ wdi_7_angular_assessment
 
 ### Question 1
 
-Complete the following code so that the sum is shown.
+Complete the following code so that the sum of num1 and num2 is shown.
 
-`<h1 ng-init="numbers = {num1: 5, num2: 10}">The sum is </h1>`
+`<p ng-init="numbers = {num1: 5, num2: 10}">The sum goes here</p>`
