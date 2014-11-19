@@ -35,11 +35,11 @@ True of False - the following is an example of a filter
 
 ### Question 7
 
-Add a route that will catch any routes not matched in the following code
+Modify the following code so that if the route is not /home or /about, it will load a 404.html template
 
 ```
 $routeProvider
-  .when('/', {
+  .when('/home', {
     templateUrl: 'templates/home.html'
   })
   .when('/about', {
