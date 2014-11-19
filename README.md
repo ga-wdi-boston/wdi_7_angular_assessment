@@ -7,6 +7,8 @@ Complete the following code so that the sum of num1 and num2 is displayed
 
 `<p ng-init="numbers = {num1: 5, num2: 10}"> {{numbers.num1 + numbers.num2}}</p>`
 
+1/1
+
 ### Question 2
 
 What are the four methods of the $http service that we have used?
@@ -16,6 +18,8 @@ post
 put
 delete
 
+1/1
+
 ### Question 3
 
 Create an unordered list out of the users in the following code
@@ -24,11 +28,15 @@ Create an unordered list out of the users in the following code
 
 `<li ng-repeat="user in users">{{user.name}}</li>`
 
+1/1
+
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
 
 In Angular's current scope
+
+1/1
 
 ### Question 5
 
@@ -36,7 +44,9 @@ Write the correct version of the code below
 
 `angular.module($scope).controller($http, 'MainCtrl', [])`
 
-`angular.module('MyModule').controller('MainCtrl, function($scope, $http)`
+`angular.module('MyModule').controller('MainCtrl, function($scope, $http){});`
+
+.5/1 (did not include closing parens/brackets)
 
 ### Question 6
 
@@ -45,6 +55,8 @@ True of False - the following is an example of a filter?
 `<ng-view></ng-view>`
 
 False, filters are denoted using a pipe
+
+1/1
 
 ### Question 7
 
@@ -63,6 +75,8 @@ $routeProvider
   });
 ```
 
+1/1
+
 ### Question 8
 
 Change the following code so that it uses one time binding
@@ -70,6 +84,8 @@ Change the following code so that it uses one time binding
 `<p>{{ user.first_name }}</p>`
 
 `<p>{{ ::user.first_name }}</p>`
+
+1/1
 
 ### Question 9
 
@@ -79,6 +95,7 @@ ng-click
 ng-keypress
 ng-submit
 
+1/1
 
 ### Question 10
 
@@ -101,3 +118,5 @@ Which of the following is the correct way to send data to Rails to update a user
 ```
 
 Depending on the way the strong params on our Rails server are set up. If we are using yesterday's setup the answer is #2.
+
+1/1
