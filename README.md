@@ -35,7 +35,7 @@ minus 1 point right here!!!
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
 
-I do not know for sure, but they are stored "behind the scene" when line 8 and 22 get executed. Correct Answert: It will be stored in the scope, in the browser. minus 0.5 points here!!!
+I do not know for sure, but they are stored "behind the scene" when line 8 and 22 get executed. Correct Answert: It will be stored in the $scope, in the browser. minus 0.5 points here!!!
 
 ### Question 5
 
