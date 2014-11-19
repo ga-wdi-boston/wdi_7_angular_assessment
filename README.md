@@ -27,6 +27,8 @@ Create an unordered list out of the users in the following code
 Based on questions #1 and #3, where are numbers and users getting created and stored?
 #Answer: Local memory -- will be erased on a page refresh.
 
+##Correction: $scope object
+
 ### Question 5
 
 Write the correct version of the code below
@@ -42,7 +44,7 @@ angular.module('MyApp').controller('MainCtrl', function($scope, $http, []){
 True of False - the following is an example of a filter?
 
 `<ng-view></ng-view>`
-#Answer: false, this is a directive
+#Answer: false, this is a <element> directive
 
 ### Question 7
 
