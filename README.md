@@ -20,3 +20,9 @@ Create an unordered list out of the users in the following code
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
+
+### Question 5
+
+Write the correct version of the code below
+
+`angular.module($scope).controller($http, 'MainCtrl', [])`
