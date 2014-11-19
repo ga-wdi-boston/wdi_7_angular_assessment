@@ -7,10 +7,11 @@ Complete the following code so that the sum of num1 and num2 is displayed
 
 `<p ng-init="numbers = {num1: 5, num2: 10}">{{numbers.num1 + numbers.num2}}</p>`
 
+
 ### Question 2
 
 What are the four methods of the $http service that we have used?
-Get, Post, Delete, Edit (update)
+Get, Post, Delete, Put(update)
 
 ### Question 3
 
@@ -23,7 +24,8 @@ Create an unordered list out of the users in the following code
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
-cache, righ on the front end
+####################### got this one wrong ################################
+on the $scope
 
 ### Question 5
 
@@ -31,7 +33,9 @@ Write the correct version of the code below
 
 `angular.module($scope).controller($http, 'MainCtrl', [])`
 
-angular.module('').controller('MainCtrl')function($scope, $http){
+
+  ############# The right answer is : ###############################
+angular.module('Demo').controller('MainCtrl', function($scope, $http){
 
   });
 
