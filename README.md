@@ -6,7 +6,8 @@ wdi_7_angular_assessment
 Complete the following code so that the sum of num1 and num2 is displayed
 
 `<p ng-init="numbers = {num1: 5, num2: 10}">{{num1 + num2}}</p>`
-
+-should be.
+`<p ng-init="numbers = {num1: 5, num2: 10}">{{numbers.num1 + numbers.num2}}</p>`
 ### Question 2
 
 What are the four methods of the $http service that we have used?
@@ -23,6 +24,9 @@ Create an unordered list out of the users in the following code
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
+-they are created and stored in $scope
+
+
   -The numbers and users are getting created through the ng-init, so they are created each time
 the program is run. The numbers and users are not getting stored anywhere, they are just
 created when the program is run.
@@ -55,7 +59,7 @@ $routeProvider
     templateUrl: 'templates/about.html'
   });
    .otherwise({
-    redirectTo: 'templates/404.html'
+    redirectTo: 'templates/404.html'  //can also do templateUrl: 'templates/404.html'
   });
 ```
 
