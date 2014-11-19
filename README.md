@@ -26,3 +26,23 @@ Based on questions #1 and #3, where are numbers and users getting created and st
 Write the correct version of the code below
 
 `angular.module($scope).controller($http, 'MainCtrl', [])`
+
+### Question 6
+
+True of False - the following is an example of a filter
+
+`<ng-view></ng-view>`
+
+### Question 7
+
+Add a route that will catch any routes not matched in the following code
+
+`
+$routeProvider
+  .when('/', {
+    templateUrl: 'templates/home.html'
+  })
+  .when('/about', {
+    templateUrl: 'templates/about.html'
+  });
+`
