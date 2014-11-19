@@ -27,7 +27,9 @@ Create an unordered list out of the users in the following code
 ### Question 4
 
 Based on questions #1 and #3, where are numbers and users getting created and stored?
-  In the DOM/browser?
+  In the DOM/browser.
+
+  Answer looking for: $scope
 
 ### Question 5
 
@@ -45,7 +47,7 @@ Write the correct version of the code below
 True of False - the following is an example of a filter?
 
 `<ng-view></ng-view>`
-  False
+  False - it's a directive, specifically an element directive -- anything that looks like a tag is a directive.
 
 ### Question 7
 
