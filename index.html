@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Assessment</title>
+    <script src="bower_components/angular/angular.js"></script>
+  </head>
+  <body ng-app>
+    <div>
+      <h1>Question 1:</h1>
+      <p ng-init="numbers = {num1: 5, num2: 10}">{{numbers.num1 + numbers.num2}}</p>  
+      <h1>Question 2:</h1>
+      <ul>$http methods in angular we've used:
+        <li>get</li>
+        <li>post</li>
+        <li>put</li>
+        <li>delete</li>
+      </ul>
+      <h1>Question 3</h1>
+      <ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]">
+        <li ng-repeat="user in users">{{user.name}}</li>
+      </ul>
+      <h1>Question 4</h1>
+      <p>In questions 1 and 3, numbers and users are getting created and stored inline in the html.</p>
+      <h1>Question 5</h1>
+      <pre><code>angular.module('ModuleName').controller('MainCtrl',function($scope,$http){ //code goes here });</code></pre>
+      <h1>Question 6</h1>
+      <p>True of False - the following is an example of a filter?<br>
+      <pre><ng-view></ng-view></pre></p>
+      <p>false</p>
+      <h1>Question 7</h1>
+      <pre>
+$routeProvider
+.when('/home', {
+  templateUrl: 'templates/home.html'
+})
+.when('/about', {
+  templateUrl: 'templates/about.html'
+})
+.otherwise(
+  redirectTo: '404.html'
+);</pre>
+      <h1>Question 8</h1>
+      <pre><code>{{ ::user.first_name }}</code></pre>
+      <h1>Question 9</h1>
+      <ul>2 examples of angular directives used for handling events
+        <li>ng-click</li>
+        <li>ng-show</li>
+      </ul>
+      <h1>Question 10</h1>
+      <p>correct way to send Rails data:</p>
+      <pre>{
+  user: {
+    first_name: 'Dan',
+    last_name: 'Dohnson'
+  }
+}
+          
+      </pre>
+    </div>
+
+    
+  </body>
+  <script src="js/main.js"></script>
+</html>
