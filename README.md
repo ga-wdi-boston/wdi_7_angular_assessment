@@ -3,7 +3,7 @@ wdi_7_angular_assessment
 
 ### Question 1
 
-Complete the following code so that the sum of num1 and num2 is displayed.
+Complete the following code so that the sum of num1 and num2 is displayed
 
 `<p ng-init="numbers = {num1: 5, num2: 10}">The sum goes here</p>`
 
@@ -29,7 +29,7 @@ Write the correct version of the code below
 
 ### Question 6
 
-True of False - the following is an example of a filter
+True of False - the following is an example of a filter?
 
 `<ng-view></ng-view>`
 
@@ -58,3 +58,21 @@ Change the following code so that it uses one time binding
 Give two examples of angular directives used for handling events
 
 ### Question 10
+
+Which of the following is the correct way to send data to Rails to update a user model?
+
+```
+{
+  first_name: 'Dan',
+  last_name: 'Dohnson'
+}
+```
+
+```
+{
+  user: {
+    first_name: 'Dan',
+    last_name: 'Dohnson'
+  }
+}
+```
