@@ -12,3 +12,7 @@ Complete the following code so that the sum of num1 and num2 is displayed.
 What are the four methods of the $http service that we have used?
 
 ### Question 3
+
+Create an unordered list out of the following names
+
+`<ul ng-init="users = [{name: 'Dan'}, {name: 'Ella'}]"></ul>`
