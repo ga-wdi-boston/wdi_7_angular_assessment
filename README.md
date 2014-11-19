@@ -106,3 +106,6 @@ Which of the following is the correct way to send data to Rails to update a user
 > For example, a UsersController
 > would expect a `user` parameter,
 > so only the second example would be valid.
+
+### Final Score
+> 10/10
